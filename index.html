@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LG</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      type="image/png"
+      sizes="16x16"
+      rel="icon"
+      href="assets/icon/icons8-lg-electronics-color-32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <img src="assets/icon/logo-lg-100-44.svg" alt="LG-LOGO" />
+          <ul class="left-items">
+            <li class="nav-item"><a href="#">Shop</a></li>
+            <li class="nav-item"><a href="#">Support</a></li>
+            <li class="nav-item"><a href="#">Business</a></li>
+          </ul>
+        </div>
+
+        <div class="right">
+          <ul class="right-items">
+            <li><a href="#">ThinQ</a></li>
+            <li><a href="#">LG SIGNATURE</a></li>
+            <li><a href="#">LG Studio</a></li>
+            <li><a href="#">Lifes Good</a></li>
+          </ul>
+
+          <div class="navIcons">
+            <a href="#" class="search">
+              <i class="bx bx-search"></i>
+            </a>
+            <a href="#" class="user">
+              <i class="bx bx-user"></i>
+            </a>
+            <a href="#" class="cart">
+              <i class="bx bx-cart"></i>
+            </a>
+          </div>
+
+          <div class="theme-toggle">
+            <button id="theme-toggle" aria-label="Toggle Theme">
+              <i class="bx bx-moon"></i>
+            </button>
+          </div>
+
+          <div class="hamburger">
+            <i class="bx bx-menu"></i>
+          </div>
+        </div>
+      </nav>
+
+      <div class="searchbar">
+        <input type="text" placeholder="Search LG" />
+      </div>
+
+      <div class="navBottom">
+        <ul class="navInfo">
+          <li>
+            <a href="#">TVs</a>
+          </li>
+          <li>
+            <a href="#">Refrigrators</a>
+          </li>
+          <li>
+            <a href="#">Laundry</a>
+          </li>
+          <li>
+            <a href="#">Monitors</a>
+          </li>
+          <li>
+            <a href="#">Cooking</a>
+          </li>
+          <li>
+            <a href="#">Laptops</a>
+          </li>
+          <li>
+            <a href="#">Dishwashers</a>
+          </li>
+          <li>
+            <a href="#">Soundbars</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="sliderSecion">
+      <div class="slider">
+        <div class="list">
+          <div class="item">
+            <img src="assets/img/HS_July_BMSM_1600x600.avif" alt="" />
+          </div>
+          <div class="item">
+            <img src="assets/img/MS_BACK2SCHOOL_BMSM_1600x600.avif" alt="" />
+          </div>
+          <div class="item">
+            <img
+              src="assets/img/HS_Laundry_Bundle_save150_1600x600.webp"
+              alt=""
+            />
+          </div>
+          <div class="item">
+            <img src="assets/img/MS_NCAA_TVs_1600x600.webp" alt="" />
+          </div>
+          <div class="item">
+            <img src="assets/img/HS_REF_BOGO_July-v4_1600x600.avif" alt="" />
+          </div>
+        </div>
+        <div class="buttons">
+          <button id="stop">||</button>
+          <button id="prev"><</button>
+          <button id="next">></button>
+        </div>
+        <ul class="dots">
+          <li class="active"></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+
+      <div class="sliderInfo">
+        <ul class="info">
+          <li>
+            <i class="bx bx-loader-alt"></i> <a href="#">Free Delivery ></a>
+          </li>
+          <li>
+            <i class="bx bx-package"></i>
+            <a href="#">No Interest Financing++ ></a>
+          </li>
+          <li><i class="bx bx-archive"></i> <a href="#">14 Day Return ></a></li>
+          <li>
+            <i class="bx bx-globe"></i> <a href="#">Extended Coverage ></a>
+          </li>
+          <li>
+            <i class="bx bx-time-five"></i>
+            <a href="#">Appliance Trade-in Credit ></a>
+          </li>
+          <li>
+            <i class="bx bx-basket"></i> <a href="#">Chat with an Expert ></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="topProducts swiper">
+      <h2>Shop top appliances and electronics</h2>
+      <div class="card-wrapper">
+        <ul class="card-list swiper-wrapper">
+          <li class="card-item swiper-slide">
+            <img src="assets/img/plpselect-oledtvs-v3.avif" alt="" />
+            <h4>OLED TVs</h4>
+          </li>
+          <li class="card-item swiper-slide">
+            <img src="assets/img/plpselect-refrigerators.avif" alt="" />
+            <h4>Refrigerators</h4>
+          </li>
+          <li class="card-item swiper-slide">
+            <img src="assets/img/plpselect-laundry.avif" alt="" />
+            <h4>Laundry</h4>
+          </li>
+          <li class="card-item swiper-slide">
+            <img src="assets/img/plpselect-monitors.avif" alt="" />
+            <h4>Monitors</h4>
+          </li>
+          <li class="card-item swiper-slide">
+            <img src="assets/img/category-seclector-LW1024RSMX.avif" alt="" />
+            <h4>Air Conditioners</h4>
+          </li>
+          <li class="card-item swiper-slide">
+            <img src="assets/img/plpselect-laptops.avif" alt="" />
+            <h4>Laptops</h4>
+          </li>
+          <li class="card-item swiper-slide">
+            <img src="assets/img/plpselect-dishwashers.avif" alt="" />
+            <h4>Dishwashers</h4>
+          </li>
+          <li class="card-item swiper-slide">
+            <img src="assets/img/plpselect-earbuds.avif" alt="" />
+            <h4>Earbuds</h4>
+          </li>
+          <li class="card-item swiper-slide">
+            <img src="assets/img/plpselect-vacuums.avif" alt="" />
+            <h4>Vaccums</h4>
+          </li>
+          <li class="card-item swiper-slide">
+            <img src="assets/img/plpselect-cooking.avif" alt="" />
+            <h4>Cooking</h4>
+          </li>
+        </ul>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </section>
+
+    <section class="tab-container">
+      <h1>Discover LG Deals</h1>
+      <button class="deals-btn">View All Deals</button>
+      <div class="tab-box">
+        <button class="tab-btn tab-active">Top Deals</button>
+        <button class="tab-btn">Kitchen</button>
+        <button class="tab-btn">Laundry</button>
+        <button class="tab-btn">TV & Audio</button>
+      </div>
+      <div class="content-box">
+        <div class="content content-active">
+          <div class="content-card">
+            <img
+              src="assets/img/MS_sightsandsoundsofsummer_gram_640x640.avif"
+              alt="LG OLED TV Promo"
+            />
+            <div class="card-overlay">
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="content-card">
+            <img
+              src="assets/img/HS_Heatpump_Evergreen_640x640.webp"
+              alt="LG OLED TV Promo"
+            />
+            <div class="card-overlay">
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="content-card">
+            <img
+              src="assets/img/HS_Top_Load_washer_DryerPair640x640.avif"
+              alt="LG OLED TV Promo"
+            />
+            <div class="card-overlay">
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="content-card">
+            <img
+              src="assets/img/HS_Cooking_Bundles-v5_640x640.avif"
+              alt="LG OLED TV Promo"
+            />
+            <div class="card-overlay">
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="content-card">
+            <img
+              src="assets/img/MS_KIMCHI_REF_BOGO_V3_1080x1080 (1).avif"
+              alt="LG OLED TV Promo"
+            />
+            <div class="card-overlay">
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="content-card">
+            <img
+              src="assets/img/MS_July_TopDeals-evergreen_640x640.avif"
+              alt="LG OLED TV Promo"
+            />
+            <div class="card-overlay">
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="content-card">
+            <img
+              src="assets/img/2025_HP_Swing_Smart_Monitor_Preorder_640x640.avif"
+              alt="LG OLED TV Promo"
+            />
+            <div class="card-overlay">
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="content-card">
+            <img
+              src="assets/img/MS_Audio_Sights_and_Sounds_of_Summer_speakers_640x640.webp"
+              alt="LG OLED TV Promo"
+            />
+            <div class="card-overlay">
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="content-card">
+            <img
+              src="assets/img/2025_HA_Multi-Room-Air-Con-Bundle_OfferCard_640x640.avif"
+              alt="LG OLED TV Promo"
+            />
+            <div class="card-overlay">
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="content-card">
+            <img
+              src="assets/img/2025_HA_Allergys-Season-RAC-Best-Sellers-Air-Care_OfferCard_640x640.avif"
+              alt="LG OLED TV Promo"
+            />
+            <div class="card-overlay">
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="content-card">
+            <img
+              src="assets/img/HP_IT_Buy_More_Save_More_30off_v2_640x640.avif"
+              alt="LG OLED TV Promo"
+            />
+            <div class="card-overlay">
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chat">
+      <div class="chat-content">
+        <img src="assets/img/2024_XBU_-Generic-HP-Banner-776x320.avif" alt="" />
+        <div class="chat-text">
+          <h3>LG Product Experts are available to chat right now</h3>
+          <p>
+            Whether you are just starting your research or have narrowed down
+            your search, LG Product Experts are available to help you find the
+            product that is right for you.
+          </p>
+          <button class="deals-btn">start chat</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="tab-container">
+      <h1>Home appliances you can count on</h1>
+      <button class="deals-btn">Explore Appliances</button>
+      <div class="tab-box">
+        <button class="tab-btn tab-active">Essentials</button>
+        <button class="tab-btn">Cooling</button>
+        <button class="tab-btn">Cleaning</button>
+        <button class="tab-btn">Smart Living</button>
+      </div>
+      <div class="content-box">
+        <div class="content content-active">
+          <div class="content-card">
+            <img src="assets/img/ha-story1-p1.webp" alt="Air Conditioner" />
+            <div class="card-overlay">
+              <h3>Stay cool with smart air solutions.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="content-card">
+            <img src="assets/img/ha-story1-p2.avif" alt="Fridge" />
+            <div class="card-overlay">
+              <h3>Freshness that lasts longer.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="content-card">
+            <img src="assets/img/ha-story1-p3.avif" alt="Vacuum Cleaner" />
+            <div class="card-overlay">
+              <h3>Powerful cleaning made easy.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="content-card">
+            <img
+              src="assets/img/OBS_HP_ThinQ-WarrantyExtensions_OfferTile_1280x1280.webp"
+              alt="Dishwasher"
+            />
+            <div class="card-overlay">
+              <h3>Spotless dishes, every time.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="content-card">
+            <img
+              src="assets/img//HS_Cooking_AmericasMostReliable_640x640.avif"
+              alt="Vacuum Cleaner"
+            />
+            <div class="card-overlay">
+              <h3>Powerful cleaning made easy.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="content-card">
+            <img
+              src="assets/img/OBS_HP_1HourWashandDryCycle_OfferTile_1280x1280.avif"
+              alt="Dishwasher"
+            />
+            <div class="card-overlay">
+              <h3>Spotless dishes, every time.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="content-card">
+            <img src="assets/img/ha-story5-p2.avif" alt="Smart Hub" />
+            <div class="card-overlay">
+              <h3>Connect your home with ease.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="content-card">
+            <img
+              src="assets/img/ha-story4-toploadwashers-p1.avif"
+              alt="Smart Hub"
+            />
+            <div class="card-overlay">
+              <h3>Connect your home with ease.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tab-container">
+      <h1>Take your home entertainment to heights</h1>
+      <button class="deals-btn">Browse Entertainment</button>
+      <div class="tab-box">
+        <button class="tab-btn tab-active">TV & Audio</button>
+        <button class="tab-btn">Gaming</button>
+      </div>
+      <div class="content-box">
+        <div class="content content-active">
+          <div class="content-card">
+            <img
+              src="assets/img/HP_HE_Story2_P3_OLED.avif"
+              alt="Gaming Monitor"
+            />
+            <div class="card-overlay">
+              <h3>Ultra-fast visuals for competitive play.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="content-card">
+            <img
+              src="assets/img/MS_Xbox_gaming_gamepass_v2-640x640.avif"
+              alt="Gaming Speakers"
+            />
+            <div class="card-overlay">
+              <h3>Hear every detail, dominate every match.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="content-card">
+            <img
+              src="assets/img/HP_HE_Story2_P2_OLED_EVO.avif"
+              alt="Gaming Chair"
+            />
+            <div class="card-overlay">
+              <h3>Comfort meets performance for long sessions.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="content-card">
+            <img
+              src="assets/img/OBS_HP_ShowcaseWilliam_BentoTile-v3_640x640.avif"
+              alt="OLED TV"
+            />
+            <div class="card-overlay">
+              <h3>Experience cinema at home with OLED clarity.</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tab-container">
+      <h1>Watch Crypto prices LIVE</h1>
+      <button class="deals-btn">Learn More</button>
+      <div class="content-box">
+        <div class="content content-active">
+          <div class="content-card">
+            <img
+              src="assets/img/gold-bitcoin-coin-cryptocurrency-blockchain-600nw-2151549513.webp"
+              alt="Free Shipping"
+            />
+            <div class="card-overlay">
+              <h3 id="BTC"></h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="content-card">
+            <img
+              src="assets/img/vector-ethereum-eth-black-symbol-front-view-isolated-white_921039-4847.avif"
+              alt="Easy Returns"
+            />
+            <div class="card-overlay">
+              <h3 id="ETH"></h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="content-card">
+            <img
+              src="assets/img/dogecoin-og-logo.webp"
+              alt="Exclusive Offers"
+            />
+            <div class="card-overlay">
+              <h3 id="DOGE"></h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="content-card">
+            <img
+              src="assets/img/simple-tron-trx-coin-illustration-600nw-2580417627.webp"
+              alt="Expert Support"
+            />
+            <div class="card-overlay">
+              <h3 id="TRX"></h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="lg-footer">
+      <div class="footer-top">
+        <h2>For LG Owners</h2>
+        <p>
+          We are committed to making your product experience as enjoyable as
+          possible, from purchase all the way through the life of the product.
+          Explore programs, support, and tools to help you get the most out of
+          your product.
+        </p>
+        <h3>REGISTER YOUR PRODUCT, GET SERVICE AND SUPPORT.</h3>
+
+        <div class="footer-cards">
+          <div class="footer-card">
+            <i class="bx bx-check-shield"></i>
+            <h4>Verification</h4>
+            <p>
+              Verification of ownership will ensure you get the most out of your
+              insurance claim.
+            </p>
+          </div>
+          <div class="footer-card">
+            <i class="bx bx-bulb"></i>
+            <h4>Tips</h4>
+            <p>
+              Helpful tips to maximize the life and potential of your product.
+            </p>
+          </div>
+          <div class="footer-card">
+            <i class="bx bx-file"></i>
+            <h4>Service Plan</h4>
+            <p>
+              Register your product to take advantage of your manufacturer’s
+              warranty.
+            </p>
+          </div>
+          <div class="footer-card">
+            <i class="bx bx-support"></i>
+            <h4>Support</h4>
+            <p>Explore support tools and resources.</p>
+          </div>
+          <div class="footer-card">
+            <i class="bx bx-gift"></i>
+            <h4>Offers & Events</h4>
+            <p>Enjoy access to special offers and events.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <ul class="footer-disclaimer">
+          <li>*Consumer Rebates are issued via virtual prepaid card.</li>
+          <li>
+            LG’s liability for any defective product is limited to repair or
+            replacement of the product at LG’s option.
+          </li>
+          <li>
+            All prices, promotions, and availability are subject to change
+            without notice.
+          </li>
+          <li>
+            LG Electronics U.S.A., Inc. is not responsible for typographical or
+            photographic errors.
+          </li>
+        </ul>
+        <div class="footer-meta">
+          <p>© 2025 LG Electronics</p>
+          <div class="footer-social">
+            <i class="bx bxl-facebook"></i>
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-instagram"></i>
+            <i class="bx bxl-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
